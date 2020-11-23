@@ -891,7 +891,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
+			<key>ApplePanic</key>
+			<true/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -899,7 +901,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -985,7 +987,7 @@
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1</string>
+				<string>-v keepsyms=1 debug=0x100</string>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
